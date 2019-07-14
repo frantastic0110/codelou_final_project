@@ -1,4 +1,21 @@
+var messageArray =[
+'It is certainly cheesey',
+'It is decidedly so',
+'Without a doubt',
+'Yes - definitely',
+'You may rely on it',
+'As I see it, yes',
+'Most likely',
+'Outlook good',
+'Yes',
+'Signs point to yes'
+]
+
 function tellFortune() {
-console.log ('helloooo cheese')
+    var choice = Math.floor(Math.random() * 10);
+    console.log(choice)
+    document.getElementById("message").innerHTML=`${messageArray[choice]}`
+    console.log ('helloooo cheese')
 }
-document.getElementById("shake").addEventListener("click", tellFortune)
+document.getElementById("ball").addEventListener("click", tellFortune)
+
