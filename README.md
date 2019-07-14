@@ -1,8 +1,8 @@
-# Project_Name
+# Magic Cheese Ball
 
 ## Description
 ```
-A brief description of your project
+This is a better than a magic 8 ball. it's a magic cheese ball. ask it a question and you will find out your cheesy future (NEW)
 
 ```
 
@@ -10,12 +10,14 @@ A brief description of your project
 
 ## Custom CSS Classes
 ```
-The class(es) I created are:
+The class(es) I created are: .. what class does, ex( adds padding & changes background color of .main-info-section )
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+
+1. #ball
+--this is the all knowing cheese ball. it begins as a square but then a radius is applied to make it a circle. there are layers of background images applied to give it some shading and depth
 
 2.
+
 
 ```
 
