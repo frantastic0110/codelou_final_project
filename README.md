@@ -1,4 +1,4 @@
-# Magic Bheese Ball 
+# Magic Cheese Ball 
 
 
 ## Description
