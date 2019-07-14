@@ -1,6 +1,4 @@
-.container{
-    
-    
+.container{    
 }
 
 
@@ -10,25 +8,33 @@
 }
 
 #ball{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 400px;
     height: 400px;
-    margin: 30px auto 0;
-    background-color:#EE7600;
+    /* margin: 30px auto 0; */
+    border: solid 1px black;
+    /* background-color:#EE7600; */
     border-radius: 50%;
-    box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
-    background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+    /* box-shadow: inset -25px -25px 40px rgba(0,0,0,.5); */
+    /* background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
     background-image: -moz-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);  
     background-image: -o-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
-    background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+    background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%); */
   }
 
-}
-
 #window{
-
+  width: 100px;
+  background:green;
+  padding:5px;
+  height:100px;
+  border: solid 1px black;
 }
 
 #message{
-
+  margin: auto;
+  background: white;
+  padding: 1px;
+  height:20px;
 }
