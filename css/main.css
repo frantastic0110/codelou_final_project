@@ -10,7 +10,7 @@ body{
   margin:auto;
   height: 100%;
 }
-
+/* center content */
 .container{
   height: 100%;
   display:flex;
@@ -52,7 +52,7 @@ body{
   padding:5px;
   border-radius: 50%;
 }
-
+/* connects to javascript */
 #message{
   margin: auto;
   background: lightgoldenrodyellow;
@@ -62,7 +62,7 @@ body{
   display: inline-block;
 }
 
-
+/* responsive  */
 @media (max-width:450px){
   #ball{
     width: 280px;
@@ -89,5 +89,4 @@ body{
   body{
     background-size:50%;
   }
-
 }
