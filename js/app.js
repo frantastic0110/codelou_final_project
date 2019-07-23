@@ -11,11 +11,13 @@ var messageArray =[
 'Signs point to yes'
 ]
 
+// javascript to run on click for the messages
+
 function tellFortune() {
     var choice = Math.floor(Math.random() * 10);
-    console.log(choice)
+    // console.log(choice)
     document.getElementById("message").innerHTML=`${messageArray[choice]}`
-    console.log ('helloooo cheese')
+    // console.log ('helloooo cheese')
 }
 document.getElementById("ball").addEventListener("click", tellFortune)
 

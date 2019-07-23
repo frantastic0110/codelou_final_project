@@ -1,15 +1,29 @@
+html{
+  height:100%;
+
+}
+
 body{
   background-image: url('../img/cheese.gif');
-  padding:20px;
+  background-size:20%;
+  /* padding-top:20px; */
   margin:auto;
+  height: 100%;
+}
+
+.container{
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #header{
     border:solid orange 2px;
     background:white;
     text-align:center;
-    width:50%;
-    padding:10px;
+    padding:20px;  
 }
 
 #ball{
@@ -18,8 +32,7 @@ body{
     align-items: center;
     width: 400px;
     height: 400px;
-     margin: 30px auto 0; 
-    /* border: solid 1px black; */
+    margin: 30px auto 0; 
     background-color:#EE7600; 
     border-radius: 50%;
     box-shadow: inset -25px -25px 40px rgba(0,0,0,.5); 
@@ -37,27 +50,44 @@ body{
   height:200px;
   background:lightgoldenrodyellow;
   padding:5px;
-  /* border: solid 1px black; */
   border-radius: 50%;
- 
- 
-  
 }
 
 #message{
   margin: auto;
   background: lightgoldenrodyellow;
-  padding-top: 10%;
   height:100px;
   width:100px;
   text-align:center; 
   display: inline-block;
-  /* border:solid 1px black; */
-  
+}
 
-  /* width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid white; */
+
+@media (max-width:450px){
+  #ball{
+    width: 280px;
+    height: 280px;
+  }
+  #window{
+    width: 150px;
+    height:150px;
+  }
+  #message{
+    height:50px;
+    width:50px;
+    font-size: 12px; 
+  }
+  #header{
+    text-align:left;
+  }
+  h1{
+    font-size: 20px;
+  }
+  h4{
+    font-size:14px;
+  }
+  body{
+    background-size:50%;
+  }
+
 }
